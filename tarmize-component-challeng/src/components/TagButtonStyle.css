@@ -1,0 +1,15 @@
+.tag-btn {
+    border: solid 2px #671164;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #720072;
+    box-shadow: 0 4px 6px rgba(27, 26, 26, 0.479);
+    color: #ffffff;
+    cursor: pointer
+}
+
+.tag-btn:hover {
+    background-color: #550755;
+    box-shadow: none;
+
+}

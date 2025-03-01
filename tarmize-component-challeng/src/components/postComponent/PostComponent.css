@@ -1,0 +1,20 @@
+.post {
+    border: solid 4px #007575;
+    padding: 8px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: lightgray;
+}
+
+.post-title {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.post-content {
+    color:dimgrey;
+    font-weight: 500;
+}
