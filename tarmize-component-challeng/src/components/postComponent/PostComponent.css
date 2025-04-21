@@ -18,3 +18,13 @@ hr {
     color:dimgrey;
     font-weight: 500;
 }
+
+.img-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-container img{
+    width: 100%;
+    object-fit: contain;
+}

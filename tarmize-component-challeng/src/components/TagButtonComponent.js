@@ -1,7 +1,7 @@
 import './TagButtonStyle.css';
-export default function TagButtonComponent() {
+export default function TagButtonComponent({tag}) {
     return (
     <button className="tag-btn" >
-        Tag Button    
+        {tag}    
     </button>)
 }

@@ -1,21 +1,11 @@
 import TagButtonComponent from "./TagButtonComponent"
 
-export default function  SideMenu() {
+export default function  SideMenu({tags}) {
     return (
         <div className="side-menu" style={sideMenu}>
-            <TagButtonComponent/>
-            <TagButtonComponent/>
-            <TagButtonComponent/>
-            <TagButtonComponent/>
-            <TagButtonComponent/>
-            <TagButtonComponent/>
-            <TagButtonComponent/>
-            <TagButtonComponent/>
-            <TagButtonComponent/>
-            <TagButtonComponent/>
-            <TagButtonComponent/>
-            <TagButtonComponent/>
-            <TagButtonComponent/>
+            {tags.map((tag)=>(
+                <TagButtonComponent tag={tag}></TagButtonComponent>
+            ))}
         </div>
     )
 }
